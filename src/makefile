@@ -42,10 +42,11 @@ point.o: point.cpp point.h
 ground.o: ground.cpp ground.h point.h
 	g++ -c ground.cpp
 
-game.o: game.cpp uiDraw.h uiInteract.h point.h ground.h
+game.o: game.cpp uiDraw.h uiInteract.h point.h ground.h lander.h
 	g++ -c game.cpp
 
-
+lander.o: lander.cpp lander.h 
+	g++ -c lander.cpp
 #######################################################################
 # ADD YOUR ADDITIONAL RULES HERE!
 #

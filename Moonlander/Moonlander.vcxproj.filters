@@ -34,6 +34,9 @@
     <ClCompile Include="..\src\uiInteract.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lander.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\lib\ground.h">
@@ -46,6 +49,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\lib\uiInteract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lander.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -127,12 +127,14 @@
     <ClCompile Include="..\src\point.cpp" />
     <ClCompile Include="..\src\uiDraw.cpp" />
     <ClCompile Include="..\src\uiInteract.cpp" />
+    <ClCompile Include="lander.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\lib\ground.h" />
     <ClInclude Include="..\lib\point.h" />
     <ClInclude Include="..\lib\uiDraw.h" />
     <ClInclude Include="..\lib\uiInteract.h" />
+    <ClInclude Include="lander.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

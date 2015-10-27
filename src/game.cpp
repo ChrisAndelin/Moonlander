@@ -6,7 +6,7 @@
 #include "uiInteract.h"
 #include "point.h"
 #include "ground.h"
-
+#include "lander.h"
 #define FUEL        500    // initial fuel for the game
 #define MIN_SPEED   3.0    // minimal landing speed
 #define FALL_HEIGHT 4.0    // greatest height we can fall from

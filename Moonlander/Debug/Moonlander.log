@@ -1,39 +1,18 @@
-﻿Build started 10/26/2015 10:36:12 PM.
-     1>Project "C:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\Moonlander\Moonlander.vcxproj" on node 2 (Build target(s)).
+﻿Build started 10/27/2015 12:28:04 AM.
+     1>Project "C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\Moonlander\Moonlander.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\game.cpp ..\src\ground.cpp ..\src\point.cpp ..\src\uiDraw.cpp ..\src\uiInteract.cpp
-         uiInteract.cpp
-         uiDraw.cpp
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\uidraw.cpp(166): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\uidraw.cpp(167): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\uidraw.cpp(442): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\uidraw.cpp(485): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\uidraw.cpp(486): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\uidraw.cpp(494): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\uidraw.cpp(495): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\uidraw.cpp(540): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\uidraw.cpp(543): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-         point.cpp
-         ground.cpp
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\ground.cpp(18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\ground.cpp(81): warning C4305: 'argument': truncation from 'double' to 'float'
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\ground.cpp(106): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\ground.cpp(109): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\ground.cpp(123): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\ground.cpp(129): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\ground.cpp(132): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-     1>c:\users\cyberpower\documents\witlmuffinprograms\moonlander\src\ground.cpp(134): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\game.cpp
          game.cpp
-         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\Debug\Moonlander.exe" /INCREMENTAL /NOLOGO C:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib C:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib C:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\Debug\Moonlander.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\Debug\Moonlander.lib" /MACHINE:X86 Debug\game.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\Debug\Moonlander.exe" /INCREMENTAL /NOLOGO "C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib" "C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib" "C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\Debug\Moonlander.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\Debug\Moonlander.lib" /MACHINE:X86 Debug\game.obj
          Debug\ground.obj
          Debug\point.obj
          Debug\uiDraw.obj
          Debug\uiInteract.obj
-         Moonlander.vcxproj -> C:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\Debug\Moonlander.exe
-     1>Done Building Project "C:\Users\CyberPower\Documents\WitlmuffinPrograms\Moonlander\Moonlander\Moonlander.vcxproj" (Build target(s)).
+         Debug\lander.obj
+         Moonlander.vcxproj -> C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\Debug\Moonlander.exe
+     1>Done Building Project "C:\Users\Brandon Bowers\Documents\GitHub\Moonlander\Moonlander\Moonlander.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:04.66
+Time Elapsed 00:00:01.68
